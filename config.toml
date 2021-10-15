@@ -1,0 +1,83 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = "Sahit's Today I Learned"
+theme = "PaperMod"
+
+[languages.en]
+languageName = "English"
+weight = 1
+
+[[languages.en.menu.main]]
+name = "Archive"
+url = "archives"
+weight = 5
+
+[[languages.en.menu.main]]
+name = "Search"
+url = "search/"
+weight = 10
+
+[[languages.en.menu.main]]
+name = "Tags"
+url = "tags/"
+weight = 10
+
+[[languages.en.menu.main]]
+name = "Categories"
+url = "categories/"
+weight = 10
+
+[[languages.en.menu.main]]
+name = "Space"
+url = "https://sahitono.space"
+weight = 10
+
+[params]
+env = "production"
+description = "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
+author = "Theme PaperMod"
+defaultTheme = "auto"
+ShowShareButtons = true
+ShowReadingTime = true
+displayFullLangName = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowToc = true
+images = [ "papermod-cover.png" ]
+
+  [params.profileMode]
+  enabled = false
+  title = "PaperMod"
+  imageUrl = "#"
+  imageTitle = "my image"
+
+    [[params.profileMode.buttons]]
+    name = "Archives"
+    url = "archives"
+
+    [[params.profileMode.buttons]]
+    name = "Tags"
+    url = "tags"
+
+  [params.homeInfoParams]
+  Title = "Today I Learned"
+  Content = """
+Welcome to my Today I Learned.
+- This is insipired from the [simonw/til](https://github.com/simonw/til)
+- Theme used is [PaperMod](https://github.com/adityatelange/hugo-PaperMod).
+"""
+
+  [[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/sahitono"
+
+  [[params.socialIcons]]
+  name = "medium"
+  url = "https://medium.com/@sahitono"
+
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
