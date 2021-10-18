@@ -4,9 +4,6 @@ date: 2021-10-18T08:19:55.866Z
 tags:
   - agisoft
   - python
-cover:
-  image: /img/vector_agisoft2.png
-  caption: agisoft vector
 ---
 I've been trying to create a bounding box that fits the model similar to [pi3d](https://www.pi3dscan.com/index.php/instructions/item/automatic-scan-processing-with-agisoft).
 After reading the script from [pi3d](https://www.pi3dscan.com/index.php/instructions/item/automatic-scan-processing-with-agisoft), the python script needs another marker on the wall parallel to the body model. It is redundant for my current project.
