@@ -5,7 +5,7 @@ tags:
   - agisoft
   - python
 cover:
-  image: /static/img/vector_agisoft2.png
+  image: /img/vector_agisoft2.png
   caption: agisoft vector
 ---
 I've been trying to create a bounding box that fits the model similar to [pi3d](https://www.pi3dscan.com/index.php/instructions/item/automatic-scan-processing-with-agisoft).
