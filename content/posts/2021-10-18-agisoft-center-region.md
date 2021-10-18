@@ -13,7 +13,7 @@ After reading the script from [pi3d](https://www.pi3dscan.com/index.php/instruct
 So, I tweaked it and found out that the model is not straight Z-up.
 
 
-![vector in metashape](/static/img/vector_agisoft2.png)
+![vector in metashape](/img/vector_agisoft2.png)
 
 The red line is a vector of the medium body, and the blue line is a vector of the middle floormat. From these two-line, We can depict that the model (black line) is not parallel with the x-axis. So, we can't shift the Z component of the floormat vector directly.
 
