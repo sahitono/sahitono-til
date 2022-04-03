@@ -6,7 +6,7 @@ tags:
   - "11"
   - bug
 cover:
-  image: /img/screenshot-5-.png
-  caption: right click bug
+  image: ""
+  caption: ""
 ---
 There's a bug in windows 11 current version which causes file explorer to crash on right-click. The solution is to download this software ![shellexview](https://www.nirsoft.net/utils/shexview.html) . Then, disable all context menu app and restart file explorer. Enable it one by one, afterwards you'll find which application caused the crash.
