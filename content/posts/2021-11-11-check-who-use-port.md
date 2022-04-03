@@ -5,9 +5,10 @@ tags:
   - powershell
   - network
 cover:
-  image: /img/screenshot-5-.png
-  caption: "~"
+  image: ""
+  caption: ""
 ---
+This is a powershell command to check who use selected port
 ```powershell
 Get-Process -Id (Get-NetTCPConnection -LocalPort YourPortNumberHere).OwningProcess
 ```
