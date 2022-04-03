@@ -26,11 +26,17 @@ collections:
         widget: "object"
         required: false
         fields:
-          - { label: "Cover Image", name: "image", widget: "image" }
+          - {
+              label: "Cover Image",
+              name: "image",
+              widget: "image",
+              required: false,
+            }
           - {
               label: "Caption",
               name: "caption",
               widget: "string",
               allow_multiple: false,
+              required: false,
             }
       - { label: "Body", name: "body", widget: "markdown" }
