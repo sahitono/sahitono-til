@@ -2,7 +2,10 @@
 title: iClient 3D in Vite
 date: 2023-10-20T09:04:57.704Z
 tags:
-  - supermap;webdev;typescript;vue
+  - supermap
+  - webdev
+  - typescript
+  - vue
 ---
 using iClient 3D in vite is tricky. because:
 1. typing is missing few things, such as OpenStreetMapImageryProvider
