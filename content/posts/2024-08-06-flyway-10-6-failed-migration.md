@@ -12,24 +12,25 @@ F﻿lyway failed to migrate on version 10.6  inside fatjar due to:
 
 t﻿he solution is to include the resource by adding this line in the gradle
 
-```kt
+```kotlin
 sourceSets {
     main {
         resources.srcDir(project(":lib:database").sourceSets["main"].resources.srcDirs)
     }
 }
-`﻿``
+```
 
-a﻿nd then setup the `mergeServiceFiles`
+a﻿nd then setup the mergeServiceFiles from this url
 https://github.com/flyway/flyway/issues/3811#issuecomment-1923760202
-`﻿``kt
-ktor {
-    tasks {
-        fatJar {
-            shadowJar {
-                mergeServiceFiles()
-            }
+
+```kotlin
+ktor {
+  tasks {
+    fatJar {
+        shadowJar {
+            mergeServiceFiles()
         }
     }
+  }
 }
-`﻿``
+```
