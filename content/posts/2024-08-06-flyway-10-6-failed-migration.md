@@ -12,7 +12,7 @@ F﻿lyway failed to migrate on version 10.6  inside fatjar due to:
 
 t﻿he solution is to include the resource by adding this line in the gradle
 
-`﻿``kt
+```kt
 sourceSets {
     main {
         resources.srcDir(project(":lib:database").sourceSets["main"].resources.srcDirs)
