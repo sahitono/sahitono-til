@@ -1,4 +1,4 @@
-baseURL = 'https://til.sahitono.space'
+baseURL = 'https://til.sahito.no'
 languageCode = 'en-us'
 title = "Sahit's Today I Learned"
 theme = "PaperMod"
